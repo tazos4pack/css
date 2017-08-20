@@ -1,0 +1,73 @@
+/*Selektor znacznika*/
+
+body {
+    background-color: white;
+}
+
+p {
+    color: lawngreen;
+    font-size: 21px;
+}
+
+
+/*Selektor ID*/
+
+#yerba {
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+
+/*Selektor klasy*/
+
+.mate {
+    color: aqua;
+}
+
+
+/*Łączenie selektorów*/
+
+div,
+link,
+span {
+    color: red;
+}
+
+
+/*selektor bezpośredniego elementu potomnego*/
+
+div#element-potomny>p {
+    color: darkmagenta;
+}
+
+
+/*selektor elementów potomych*/
+
+div#element-spacja p {
+    color: blueviolet;
+}
+
+
+/*selektor rodzenistwa*/
+
+div#rodzenstwo>p+div {
+    color: sienna;
+}
+
+
+/*selektor calego rodzenistwa*/
+
+div#cale-rodzenstwo>p~div {
+    color: green;
+}
+
+/*selektory wykluczające*/
+ul > li.list-item:not(.wykluczone) {
+    color: aqua;
+}
+
+/*selektor kolejnego elementu potomnego*/
+
+ol >li:nth-child(3) {
+    background-color: lightgreen;
+}
