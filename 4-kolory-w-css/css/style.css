@@ -1,3 +1,29 @@
-body {
-    background-color: mediumvioletred;
+html {
+    font-size: 50px;
+}
+
+.pudlo {
+    width: 800px;
+    height: 55px;
+    margin-bottom: 8px;
+}
+
+#kolory-predefiniowane {
+    background: red;
+}
+
+#kolory-hexadecymalne {
+    background: #BAE396;
+}
+
+#kolory-hexadecymalne-zapis-skrocony {
+    background: #B29;
+}
+
+#kolory-rgb {
+    background: rgb(116,149,203);
+}
+
+#kolory-rgb-a {
+    background: rgba(116,149,203,0.5);
 }
