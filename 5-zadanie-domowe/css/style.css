@@ -1,0 +1,74 @@
+/*kolor tła*/
+
+body {
+    background-color: blanchedalmond;
+}
+
+
+/*figury*/
+
+#mother {
+    width: 606px;
+    height: 606px;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.child {
+    width: 198px;
+    height: 198px;
+    display: inline-block;
+}
+
+.grandchild {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 95px;
+    height: 95px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 100%;
+}
+
+
+/*kolory*/
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: darkgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.violet {
+    background-color: mediumvioletred;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.pink {
+    background-color: pink;
+}
